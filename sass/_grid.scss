@@ -1,0 +1,50 @@
+.grid {
+    display: flex;
+}
+.grid--wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.grid__item {
+    flex-grow: 1;
+}
+
+@for $i from 1 through 9 {
+    .grid__item--basis-#{$i * 10} {
+        flex-basis: $i * 10%;
+    }
+}
+
+.grid__item {
+
+}
+
+.grid__item--grow {
+
+}
+
+.grid--wrap {
+
+}
+//
+//.menu {
+//
+//}
+//.menu__item {
+//    color: white;
+//}
+//.menu__item--disabled {
+//
+//}
+//
+//.menu__item--state-1 {
+//
+//}
+//
+//.menu__item--state-2 {
+//
+//}
+//
+//.menu__item--state-3 {
+//
+//}

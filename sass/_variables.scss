@@ -1,0 +1,39 @@
+/* set var on top */
+$color: purple;
+$phantom-grey : #eff2f6;
+$phantom-red : #ff343d;
+
+
+@for $i from 1 through 20 {
+	.m-t-#{$i * 5} {
+		margin-top : 5px * $i !important;
+	}
+	.m-l-#{$i * 5} {
+		margin-left : 5px * $i !important;
+	}
+	.m-r-#{$i * 5} {
+		margin-right : 5px * $i !important;
+	}
+	.m-b-#{$i * 5} {
+		margin-bottom : 5px * $i !important;
+	}
+}
+
+
+/* map are "likes" array, set them after vars */
+
+$theme-colors: (
+		white: #fff,
+		black: #000,
+		grey: $phantom-grey,
+		red: $phantom-red,
+);
+
+/*
+$grid-breakpoints : (
+	xs : 0,
+	sm: 576px,
+	md : 768px,
+	lg: 992px,
+	xl : 1200px,
+);*/
