@@ -8,34 +8,38 @@
 	<!--[if IE]>
 	<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
 	<![endif]-->
+	<!-- Font Awesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 <body>
 
 <header>
 	<nav>
 		<ul>
-			<li><a href="#">MARS</a></li>
-			<li><span>phone</span>+48 604 300 500</li>
-			<li><a href="#">BUY NOW</a></li>
+			<li><a href="#"><img src="img/logo.png" alt="MARS LOGO"></a></li>
+			<li><i class="fa fa-phone" aria-hidden="true"></i> +48 604 300 500</li>
+			<li><a href="#">BUY NOW</a><i class="fa fa-bars" aria-hidden="true"></i></li>
 		</ul>
 	</nav>
 </header>
 
-<div class="grid--wrap">
-	<div class="grid__item--basis-50">zegzefgezfzef</div>
-	<div class="grid__item--basis-50">zegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzef</div>
-</div>
+<!--<div class="grid&#45;&#45;wrap">
+	<div class="grid__item&#45;&#45;basis-50">zegzefgezfzef</div>
+	<div class="grid__item&#45;&#45;basis-50">zegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzefzegzefge zfzef</div>
+</div>-->
 
 <div id="phantom-section">
 	<div class="phantom-left">
-		<h1>Phantom</h1>
-		<p>
+		<h1 class="phantom__left--title">Phantom</h1>
+		<p class="phantom__left--description">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 		</p>
 	</div>
 
-	<div class="phantom-right">
-		<img src="img/drone-opti.png" alt="Drone" title="Phantom">
+	<div class="phantom-right phantom__circle">
+		<div class="circle">
+			<img src="img/drone-opti.png" alt="Drone" title="Phantom">
+		</div>
 	</div>
 </div>
 
@@ -106,15 +110,17 @@
 	<div>
 		<img src="img/drone-opti.png" alt="drone">
 	</div>
+</div>
 
-
+<div id="start-journey" class="grid">
+	<h2>Start your journey.</h2>
+	<button>VIEW MORE</button>
 
 </div>
-<div>
-	<h2>Start your journey</h2>
-</div>
+
 <footer>
-	<p>&copy; All rights not reserved!</p>
+	<p>MARS</p>
+	<p class="copyright">&copy; All rights not reserved!</p>
 </footer>
 <script src="js/app.js"></script>
 </body>
